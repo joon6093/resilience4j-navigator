@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>io.jeyong.resilience4j.navigator</id>
+    <name>Resilience4j Navigator</name>
+    <version>0.1.0</version>
+
+    <vendor email="joon6093@naver.com" url="https://github.com/joon6093">jeyong</vendor>
+
+    <description>
+        Navigate between Resilience4j annotations and their implementation code.
+    </description>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <gotoDeclarationHandler implementation="io.jeyong.resilience4j.navigator.CircuitBreakerGotoHandler"/>
+        <implicitUsageProvider implementation="io.jeyong.resilience4j.navigator.CircuitBreakerImplicitUsageProvider"/>
+    </extensions>
+</idea-plugin>
