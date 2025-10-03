@@ -9,8 +9,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class CircuitBreakerImplicitUsageProvider implements ImplicitUsageProvider {
 
-    private static final String CIRCUIT_BREAKER_FQN =
-            "io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker";
+    private static final String CIRCUIT_BREAKER_FQN = "io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker";
 
     @Override
     public boolean isImplicitUsage(@NotNull PsiElement element) {
