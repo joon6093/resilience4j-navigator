@@ -41,7 +41,7 @@ If you’d like to experiment with it early, you can build and install the plugi
 1. **Clone the repository**
 
    ```
-   git clone https://github.com/joon6093/resilience4j-navigator.git
+   git clone https://github.com/jeyongsong/resilience4j-navigator.git
    cd resilience4j-navigator
    ```
 
